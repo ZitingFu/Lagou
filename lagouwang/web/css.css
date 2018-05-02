@@ -1,0 +1,267 @@
+
+@media (max-width:480px){
+	html{
+		font-size: 65.5%;
+	}
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+	*{
+		margin:0;padding:0;
+	}
+	li{
+		list-style: none;
+	}
+	html,body{
+		overflow-x:hidden; 
+	}
+	.content{
+		height:100%;
+		background-color: #fff;
+		width: 100%;
+		position: absolute;
+	}
+	.content.ng-enter{
+		animation:myenter 0.5s;
+	}
+	.content.ng-leave{
+		animation:myleave 0.5s;
+	}
+	/*@keyframes myenter{
+		from {left:50%;}
+		to {left:0%;}
+	}
+	@keyframes myleave{
+		from {right:0%;}
+		to {right:80%;}
+	}*/
+	header{
+		background-color: #00b38a;
+		line-height: 45px;
+		text-align: center;
+		color: #fff;
+		z-index: 5;
+		font-size:1.8rem
+		
+	}
+	footer{
+		position:fixed;
+		width: 100%;
+		line-height:45px;
+		left:0;
+		bottom:0px;
+		z-index:9;
+		background-color: #f6f6f6;
+
+	}
+	footer a{
+		text-align: center;
+		float: left;
+		display:block;
+		font-size: 1.7rem;
+		line-height:45px;
+		width:32.333333%;
+		color: #c2cfcc;
+	}
+	footer a i{
+		display:inline-block;
+		width:18px;
+		height: 17px;
+		background-repeat: no-repeat;
+		background-image: url(icon2.png);
+	    background-size: 250px 250px
+	}
+	footer a:nth-child(1) i{
+		background-position:-32px -2.5px;;
+	}
+	footer a:nth-child(2) i{
+		background-position:-14px -2.5px;
+	}
+	footer a:nth-child(3) i{
+		background-position:-52.5px -2px;
+	}
+	/*登录*/
+	.register{
+		text-align: center;
+		margin:45px auto;
+		width: 125px;
+	}
+	.register a{
+		display:inline-block;
+		color: #fff;
+		font-size: 1.5rem;
+	    line-height: 45px;
+	  	 width: 125px;
+		background-color: #1fc8a1;
+	}
+	.Interview {
+		overflow: hidden;
+		padding:0 5%;
+	}
+	.Interview div{
+		text-align: center;
+		display: inline-block;
+		float: left;
+		width: 47%;
+		line-height: 86px;
+		margin-bottom: 5%;
+		background-color: #1fc8a1;
+	}
+	.Interview div a{
+		font-size: 1.8rem;
+	}
+	.Interview div:nth-child(even){
+		margin-left:5%;
+	}
+	/*职业*/
+	.position ul{
+		margin-bottom:120px; 
+	}
+	.position li{
+		overflow: hidden;
+	}
+	.position .img{
+		display: inline-block;
+	    float: left;
+	    width: 60px;
+	    height: 60px;
+	    margin-right:11px;
+	}
+	.item-desc{
+		float: left;
+		width: 77%;
+	}
+	.item-desc h2{
+	    font-size: 1.6rem;
+		width: 80%;
+		overflow: hidden;
+	    text-overflow: ellipsis;
+    	white-space: nowrap;
+
+	}
+	.item-pos{
+		font-size: 1.2rem;
+		float: left;
+		overflow: hidden;
+	    text-overflow: ellipsis;
+    	white-space: nowrap;
+    	width: 60%;
+	}
+	.item-info{
+		overflow: hidden;
+	}
+	.iitem-salary{
+		float: right;
+		font-size: 1.7rem;
+		color: #00b38a;
+	}
+	.item-time{
+		font-size: 1rem;
+	}
+	.activeable{
+	    padding: 14px;
+    	border-bottom: 1px solid #e8e8e8;
+	}
+	/*搜索*/
+	.button i{
+		display:inline-block;
+		position: absolute;
+		right:0px;
+		top:15px;
+		width:16.5px;
+		height:18px;
+		background-repeat: no-repeat;
+		background-image: url(icon2.png);
+	    background-size: 250px 250px;
+	    background-position:-14px -2.5px;
+	}
+	.City{
+		position: relative;
+	}
+	.City em{
+		display:inline-block;
+		width:26px;
+		height:12px;
+		background-repeat: no-repeat;
+		background-image: url(icon2.png);
+	    background-size: 250px 250px;
+	    background-position:-76.5px -54.5px;
+	    transform: rotate(-90deg);
+	    top:-24px;
+	    left:7px;
+	    position: absolute;
+	}
+	.button em{
+		display:inline-block;
+		width:26px;
+		height:12px;
+		background-repeat: no-repeat;
+		background-image: url(icon2.png);
+	    background-size: 250px 250px;
+	    background-position:-76.5px -54.5px;
+	    transform: rotate(180deg);
+	}
+	.button{
+	    overflow: hidden;
+		border-bottom: 1px solid #e8e8e8;
+	}
+	.button .left{
+		font-size: 1.6rem;
+		text-align: center;
+		line-height: 45px;
+		width: 30%;
+		float: left;
+		border-right: 1px solid #e8e8e8;
+	}
+	.button .right{
+		height: 45px;
+		width:66%;
+		float: left;
+		position: relative;
+	}
+	.inputer{
+		display: block;
+		border: none;
+		margin-left:8px;
+		font-size: 1.5rem;
+		padding:14px 0;
+		border: none;
+		outline:none;
+	}
+	table td{
+	    font-size: 1.5rem;
+		text-align: center;
+		width:10rem;
+		height: 60px;
+		color: #333;
+	}
+	h6{
+	    border-bottom: 1px solid #e8e8e8;
+	    line-height: 25px;
+	    padding: 0 15px;
+	    font-size: 1.2rem;
+	    color: #888;
+	    font-weight: normal;
+	}
+	.focus{
+		color: #00b38a;
+		background-color: #e7f3f0;
+		background-position-y:-20.5px;
+	}
+	.none{
+		display: none;
+	}
+	.block{
+		display: block;
+	}
+	html body .focus .i1{
+		background-position:  -32px -20.5px;
+	}
+	html body .focus .i2{
+		background-position:  -14px -20.5px
+	}
+	html body .focus .i3{
+		background-position:  -52.5px -20px;
+	}
+}

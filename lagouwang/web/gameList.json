@@ -1,0 +1,244 @@
+{
+"result": [
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "id":1,
+            "positionId": 1826617,
+            "positionName": "Amazon运营专员",
+            "city": "深圳",
+            "createTime": "09:33",
+            "salary": "4k-8k",
+            "companyId": 43807,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/A9/10/Cgp3O1ivnBKAYe03AAAMOTJJ8yc907.jpg",
+            "companyName": "智美达",
+            "companyFullName": "深圳市智美达科技股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":2,
+            "positionId": 1887595,
+            "positionName": "网站策划",
+            "city": "深圳",
+            "createTime": "09:33",
+            "salary": "10k-20k",
+            "companyId": 43807,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/A9/10/Cgp3O1ivnBKAYe03AAAMOTJJ8yc907.jpg",
+            "companyName": "智美达",
+            "companyFullName": "深圳市智美达科技股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":3,
+            "positionId": 3155740,
+            "positionName": "图像算法工程师",
+            "city": "杭州",
+            "createTime": "09:33",
+            "salary": "18k-26k",
+            "companyId": 53800,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/A3/E5/Cgp3O1iqrv2AED5zAABiUxJOeos371.png",
+            "companyName": "TuSDK",
+            "companyFullName": "杭州微禾迅科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":4,
+            "positionId": 3152103,
+            "positionName": "嵌入式软件开发工程师",
+            "city": "成都",
+            "createTime": "09:33",
+            "salary": "5k-10k",
+            "companyId": 140348,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/86/C8/CgqKkVhlv3iAFmltAAAd_Qz7PYM321.png",
+            "companyName": "六零加智能科技",
+            "companyFullName": "深圳六零加智能科技有限公司成都分公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":5,
+            "positionId": 3147899,
+            "positionName": "销售经理",
+            "city": "深圳",
+            "createTime": "09:32",
+            "salary": "6k-12k",
+            "companyId": 130569,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/30/21/CgqKkVdFa2OAGYPJAAAGJ10zdaI294.jpg",
+            "companyName": "易聆科",
+            "companyFullName": "深圳市易聆科信息技术股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":6,
+            "positionId": 1879222,
+            "positionName": "Java",
+            "city": "广州",
+            "createTime": "09:32",
+            "salary": "15k-20k",
+            "companyId": 130569,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/30/21/CgqKkVdFa2OAGYPJAAAGJ10zdaI294.jpg",
+            "companyName": "易聆科",
+            "companyFullName": "深圳市易聆科信息技术股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":7,
+            "positionId": 1757518,
+            "positionName": "运维工程师",
+            "city": "长沙",
+            "createTime": "09:32",
+            "salary": "4k-8k",
+            "companyId": 126139,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/25/1B/CgqKkVcdw6mAOXo-AAAolRpO7gA616.png",
+            "companyName": "快诺迅汇",
+            "companyFullName": "快诺迅汇（长沙）网络技术股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":8,
+            "positionId": 3173038,
+            "positionName": "Java工程师",
+            "city": "深圳",
+            "createTime": "09:32",
+            "salary": "9k-15k",
+            "companyId": 21101,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/4B/34/CgpEMllmvjyAQ-aLAAQLAkgJoiU14.jpeg",
+            "companyName": "英迈思",
+            "companyFullName": "深圳英迈思文化科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":9,
+            "positionId": 3153992,
+            "positionName": "资深视觉设计师",
+            "city": "杭州",
+            "createTime": "09:31",
+            "salary": "10k-20k",
+            "companyId": 154789,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/8C/CF/CgqKkViBqrqAXxFKAAALOEXSssU796.png",
+            "companyName": "数心科技",
+            "companyFullName": "杭州数心网络科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":10,
+            "positionId": 3148307,
+            "positionName": "测试工程师",
+            "city": "杭州",
+            "createTime": "09:31",
+            "salary": "5k-10k",
+            "companyId": 154789,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/8C/CF/CgqKkViBqrqAXxFKAAALOEXSssU796.png",
+            "companyName": "数心科技",
+            "companyFullName": "杭州数心网络科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":11,
+            "positionId": 1818811,
+            "positionName": "兼职撰稿（海外经历者优先）",
+            "city": "北京",
+            "createTime": "09:30",
+            "salary": "1k-2k",
+            "companyId": 39639,
+            "companyLogo": "http://www.lgstatic.com/image1/M00/00/61/Cgo8PFTUXU-ANvqiAABXf5siqzg053.png",
+            "companyName": "未名空间",
+            "companyFullName": "北京未名空间信息技术有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":12,
+            "positionId": 3175188,
+            "positionName": "C++开发主管/项目管理岗",
+            "city": "深圳",
+            "createTime": "09:30",
+            "salary": "18k-35k",
+            "companyId": 170289,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/99/87/CgqKkVihAtuARJraAAG0Mq66gHQ846.jpg",
+            "companyName": "安印科技",
+            "companyFullName": "深圳市安印科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+             "id":13,
+            "positionId": 3157277,
+            "positionName": "大客户销售主管",
+            "city": "上海",
+            "createTime": "09:30",
+            "salary": "10k-20k",
+            "companyId": 53705,
+            "companyLogo": "http://www.lgstatic.com/i/image/M00/6C/E5/CgpFT1m2HY2APZSXAABJIxp3bNY456.png",
+            "companyName": "CQASO",
+            "companyFullName": "闯奇信息科技（上海）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "id":14,
+            "positionId": 3160680,
+            "positionName": "游戏动作设计师",
+            "city": "广州",
+            "createTime": "09:30",
+            "salary": "10k-15k",
+            "companyId": 658,
+            "companyLogo": "http://www.lgstatic.com/i/image2/M00/3F/10/CgotOVpXBrCAQO8nAABYaV65akQ469.jpg",
+            "companyName": "三七互娱",
+            "companyFullName": "三七互娱（上海）科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "id":15,
+            "positionId": 1855013,
+            "positionName": "手游运营经理",
+            "city": "广州",
+            "createTime": "09:30",
+            "salary": "10k-20k",
+            "companyId": 658,
+            "companyLogo": "http://www.lgstatic.com/i/image2/M00/3F/10/CgotOVpXBrCAQO8nAABYaV65akQ469.jpg",
+            "companyName": "三七互娱",
+            "companyFullName": "三七互娱（上海）科技有限公司"
+        }
+    ]
+}

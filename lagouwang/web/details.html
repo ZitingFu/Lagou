@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>职位</title>
+</head>
+<body>
+<div class="position">
+	<ul>
+		<li class="activeable" ng-repeat="i in data">
+			<img class="img" src= {{i.img}} alt="">
+			<div class="item-desc">
+				<h2>{{i.titile}}</h2>
+				<p class="item-info">
+					<span class="item-pos">{{i.Name}}</span>
+					<span class="iitem-salary">{{i.money}}</span>
+				</p>
+				<p class="item-time">今天{{i.Time}}</p>
+			</div>
+		</li>
+	</ul>
+</div>
+</body>
+</html>

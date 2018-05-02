@@ -1,0 +1,111 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<title>路由</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>	
+	<!-- <header>拉勾网</header> 	 -->
+	<app-head></app-head>	
+	<div class="contentfa" controller>
+		<p class="content" ng-view></p>
+	</div>
+	<app-footer></app-footer>	
+	
+	<script src="angular.js"></script>
+	<script src="angular-animate.min.js"></script>
+	<script src="angular-route.js"></script>
+	<script>
+		var myapp = angular.module("myapp",["ngAnimate","ngRoute"]);
+		//替换相同的内容
+		myapp.directive("appHead",[()=>{
+			return{
+				restrict:"AE",
+				templateUrl:"head.html",
+				replace:true
+			}
+		}])
+		myapp.directive("appFooter",[()=>{
+			return{
+				restrict:"AE",
+				templateUrl:"footer.html",
+				replace:true,
+				controller:"footer"
+			}
+		}])
+		//路由
+		myapp.config(["$routeProvider",($routeProvider)=>{
+						$routeProvider.when("/details",{
+							// template:"我是首页"
+							templateUrl:"details.html",
+							controller:"details"
+						})
+						$routeProvider.when("/page",{
+							// template:"我是子页"
+							templateUrl:"page.html",
+							controller:"btn"
+						})
+						$routeProvider.when("/my",{
+							// template:"我是子页"
+							templateUrl:"my.html"
+							// controller:"page"
+						})
+						// $routeProvider.otherwise({
+						// 	redirectTo:"/details"
+						// })
+					}])
+		//控制页面
+		myapp.controller("details",($scope,$http)=>{
+			$http({
+				url:"http://127.0.0.1:55777/123?callock=fn",
+				method:"get"
+			}).then((response)=>{
+				console.log(response.data)
+				$scope.data = response.data
+			},(error)=>{console.log(error)})
+			
+		})
+		myapp.controller("footer",($scope)=>{
+			$scope.jabstyle = "focus"
+			$scope.i1 = "i1"
+			$scope.clickon = function(url){
+				$scope.jabstyle = ""
+				$scope.searchstyle = ""
+				$scope.mystyle = ""
+				if(url === 'jab'){
+					$scope.jabstyle = "focus"
+					$scope.i1 = "i1"
+
+				}
+				if(url === 'search'){
+					$scope.searchstyle = "focus"
+					$scope.i2 = "i2"
+				}
+				if(url === 'my'){
+					$scope.mystyle = "focus"
+					$scope.i3 = "i3"
+				}
+			}
+		})
+		myapp.controller("btn",($scope)=>{
+			$scope.chengshi = "none"
+			$scope.btn = function(){
+				if($scope.chengshi){
+					$scope.chengshi = "block"
+					$scope.quanguo="none"
+				}
+				else{
+					$scope.chengshi = "none"
+				}
+				
+			}
+			$scope.em = function(){
+				$scope.chengshi = "none"
+				$scope.quanguo= "block"
+			}
+		})
+	</script>
+</body>
+</html>
